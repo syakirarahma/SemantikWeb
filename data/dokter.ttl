@@ -1,0 +1,262 @@
+@prefix ab: <http://learningsparql.com/ns/name#> .
+@prefix d:  <http://learningsparql.com/ns/data#> .
+
+# spesialis
+d:spesialis1 ab:spesialisname "Kandungan dan Kebidanan".
+d:spesialis2 ab:spesialisname "Gigi dan Konservasi Gigi".
+d:spesialis3 ab:spesialisname "Jantung".
+d:spesialis4 ab:spesialisname "THT".
+d:spesialis5 ab:spesialisname "Anak dan Tumbuh Kembang Anak".
+d:spesialis6 ab:spesialisname "Penyakit Dalam".
+d:spesialis7 ab:spesialisname "Kulit dan Kelamin".
+d:spesialis8 ab:spesialisname "Bedah".
+
+# jadwal Hari
+d:jadwal1 ab:jadwalname "Senin".
+d:jadwal2 ab:jadwalname "Selasa".
+d:jadwal3 ab:jadwalname "Rabu".
+d:jadwal4 ab:jadwalname "Kamis".
+d:jadwal5 ab:jadwalname "Jumat".
+
+# jam Praktek
+d:jam1 ab:jampraktek "07.00 - 08.30".
+d:jam2 ab:jampraktek "08.00 - 09.00".
+d:jam3 ab:jampraktek "08.00 - 12.00".
+d:jam4 ab:jampraktek "10.00 - 11.30".
+d:jam5 ab:jampraktek "11.00 - 13.00".
+d:jam6 ab:jampraktek "13.00 - 14.30".
+d:jam7 ab:jampraktek "14.00 - 16.00".
+
+# lantai Praktek
+d:lantai1 ab:lantaipraktek "lantai 2".
+d:lantai2 ab:lantaipraktek "lantai 3".
+d:lantai3 ab:lantaipraktek "lantai 4".
+d:lantai4 ab:lantaipraktek "lantai 5".
+
+
+# Dokter Kandungan
+d:dokter1 ab:name "dr. Asep Taslim, Sp. OG. " ;
+          ab:umur "53 tahun" ;
+          ab:spesialis d:spesialis1 ;
+          ab:pengalaman "25 tahun" ;
+          ab:jadwal d:jadwal1 ;
+          ab:jam d:jam7 ;
+          ab:lantai d:lantai1 .
+d:dokter2 ab:name "dr. Erni Nurrahmi Suprihatin P., Sp. OG." ;
+          ab:umur "43 tahun" ;
+          ab:spesialis d:spesialis1 ;
+          ab:pengalaman "10 tahun" ;
+          ab:jadwal d:jadwal1 ;
+          ab:jam d:jam5 ;
+          ab:lantai d:lantai1 .
+d:dokter3 ab:name "dr. Max Sieboentara, Sp. OG." ;
+          ab:umur "35 tahun" ;
+          ab:spesialis d:spesialis1 ;
+          ab:pengalaman "6 tahun" ;
+          ab:jadwal d:jadwal2 ;
+          ab:jam d:jam2 ;
+          ab:lantai d:lantai1 .
+d:dokter4 ab:name "dr. H. Ii Supriyatna, Sp. OG." ;
+          ab:umur "50 tahun" ;
+          ab:spesialis d:spesialis1 ;
+          ab:pengalaman "22 tahun" ;
+          ab:jadwal d:jadwal5 ;
+          ab:jam d:jam6 ;
+          ab:lantai d:lantai1 .
+d:dokter5 ab:name "dr. H. Polar Silumi, Sp. OG., MH. Kes." ;
+          ab:umur "55 tahun" ;
+          ab:spesialis d:spesialis1 ;
+          ab:pengalaman "26 tahun" ;
+          ab:jadwal d:jadwal3 ;
+          ab:jam d:jam3 ;
+          ab:lantai d:lantai1 .
+
+# Dokter Gigi
+d:dokter6 ab:name "drg. Hj. Tati Siti Fatimah" ;
+          ab:umur "51 tahun" ;
+          ab:spesialis d:spesialis2 ;
+          ab:pengalaman "24 tahun" ;
+          ab:jadwal d:jadwal1 ;
+          ab:jam d:jam2 ;
+          ab:lantai d:lantai4 .
+d:dokter7 ab:name "dr. Nanang Abimanyu, Sp. KG, MH. Kes." ;
+          ab:umur "57 tahun" ;
+          ab:spesialis d:spesialis2 ;
+          ab:pengalaman "27 tahun" ;
+          ab:jadwal d:jadwal1 ;
+          ab:jam d:jam6 ;
+          ab:lantai d:lantai4 .
+d:dokter8 ab:name "drg. Yuni Melawati" ;
+          ab:umur "38 tahun" ;
+          ab:spesialis d:spesialis2 ;
+          ab:pengalaman "13 tahun" ;
+          ab:jadwal d:jadwal2 ;
+          ab:jam d:jam3 ;
+          ab:lantai d:lantai4 .
+d:dokter9 ab:name "drg. Trisye Elistina" ;
+          ab:umur "41 tahun" ;
+          ab:spesialis d:spesialis2 ;
+          ab:pengalaman "16 tahun" ;
+          ab:jadwal d:jadwal4 ;
+          ab:jam d:jam7 ;
+          ab:lantai d:lantai4 .
+d:dokter10 ab:name "drg. Tritania Ambarwati" ;
+          ab:umur "32 tahun" ;
+          ab:spesialis d:spesialis2 ;
+          ab:pengalaman "8 tahun" ;
+          ab:jadwal d:jadwal4 ;
+          ab:jam d:jam1 ;
+          ab:lantai d:lantai4 .
+
+#Dokter Jantung
+d:dokter11 ab:name "dr. Pramon Aditya Sudjana, Sp. JP, FIHA" ;
+          ab:umur "44 tahun" ;
+          ab:spesialis d:spesialis3 ;
+          ab:pengalaman "13 tahun" ;
+          ab:jadwal d:jadwal1 ;
+          ab:jam d:jam7 ;
+          ab:lantai d:lantai2 .
+d:dokter12 ab:name "dr. Suarman Idarsyah, Sp. JP(K), FIHA, FAs CC" ;
+          ab:umur "60 tahun" ;
+          ab:spesialis d:spesialis3 ;
+          ab:pengalaman "33 tahun" ;
+          ab:jadwal d:jadwal1 ;
+          ab:jam d:jam4 ;
+          ab:lantai d:lantai2 .
+d:dokter13 ab:name "dr. Fanny Fauziah Abdullah, Sp. JP, M. Kes, FIHA" ;
+          ab:umur "48 tahun" ;
+          ab:spesialis d:spesialis3 ;
+          ab:pengalaman "18 tahun" ;
+          ab:jadwal d:jadwal2 ;
+          ab:jam d:jam3 ;
+          ab:lantai d:lantai2 .
+
+#Dokter THT
+d:dokter14 ab:name "dr. H. Farid Wajdi, Sp. THT-KL" ;
+          ab:umur "56 tahun" ;
+          ab:spesialis d:spesialis4 ;
+          ab:pengalaman "21 tahun" ;
+          ab:jadwal d:jadwal1 ;
+          ab:jam d:jam4 ;
+          ab:lantai d:lantai1 .
+d:dokter15 ab:name "dr. Muhammad Sidik Hasanudin, Sp. THT-KL" ;
+           ab:umur "33 tahun" ;
+           ab:spesialis d:spesialis4 ;
+           ab:pengalaman "7 tahun" ;
+           ab:jadwal d:jadwal5 ;
+           ab:jam d:jam2 ;
+           ab:lantai d:lantai1 .
+
+#Dokter Anak
+d:dokter16 ab:name "dr. Hj. Gumiwang, Sp. A., M.Kes." ;
+           ab:umur "34 tahun" ;
+           ab:spesialis d:spesialis5 ;
+           ab:pengalaman "6 tahun" ;
+           ab:jadwal d:jadwal1 ;
+           ab:jam d:jam5 ;
+           ab:lantai d:lantai2 .
+d:dokter17 ab:name "dr. Hj. R. Heni Puspita, Sp. A., M. Kes." ;
+           ab:umur "49 tahun" ;
+           ab:spesialis d:spesialis5 ;
+           ab:pengalaman "15 tahun" ;
+           ab:jadwal d:jadwal1 ;
+           ab:jam d:jam3 ;
+           ab:lantai d:lantai2 .
+d:dokter18 ab:name "dr. H. Mahbub Muhammady, Sp. A., M. Sc." ;
+           ab:umur "50 tahun" ;
+           ab:spesialis d:spesialis5 ;
+           ab:pengalaman "22 tahun" ;
+           ab:jadwal d:jadwal2 ;
+           ab:jam d:jam4 ;
+           ab:lantai d:lantai2 .
+d:dokter19 ab:name "dr. H. Pandji Purnama Karnadihardja, Sp. A." ;
+           ab:umur "56 tahun" ;
+           ab:spesialis d:spesialis5 ;
+           ab:pengalaman "27 tahun" ;
+           ab:jadwal d:jadwal2 ;
+           ab:jam d:jam3 ;
+           ab:lantai d:lantai2 .
+
+#Dokter Penyakit Dalam
+d:dokter20 ab:name "dr. H. Bambang Tri Purwanto, Sp. PD." ;
+           ab:umur "48 tahun" ;
+           ab:spesialis d:spesialis6 ;
+           ab:pengalaman "14 tahun" ;
+           ab:jadwal d:jadwal1 ;
+           ab:jam d:jam2 ;
+           ab:lantai d:lantai3 .
+d:dokter21 ab:name "dr. H. Dadan Resmana, Sp. PD., FINASIM" ;
+           ab:umur "53 tahun" ;
+           ab:spesialis d:spesialis6 ;
+           ab:pengalaman "18 tahun" ;
+           ab:jadwal d:jadwal1 ;
+           ab:jam d:jam1 ;
+           ab:lantai d:lantai3 .
+d:dokter22 ab:name "dr. Dania Artriana, Sp. PD." ;
+           ab:umur "29 tahun" ;
+           ab:spesialis d:spesialis6 ;
+           ab:pengalaman "2 tahun" ;
+           ab:jadwal d:jadwal2 ;
+           ab:jam d:jam3 ;
+           ab:lantai d:lantai4 .
+d:dokter23 ab:name "dr. H. Dendi Djuanda, Sp. PD., FINASIM" ;
+           ab:umur "47 tahun" ;
+           ab:spesialis d:spesialis6 ;
+           ab:pengalaman "14 tahun" ;
+           ab:jadwal d:jadwal3 ;
+           ab:jam d:jam5 ;
+           ab:lantai d:lantai3 . 
+d:dokter24 ab:name "dr. Hj. Rahma Nurmayanti, Sp. PD., M. Sc." ;
+           ab:umur "50 tahun" ;
+           ab:spesialis d:spesialis6 ;
+           ab:pengalaman "20 tahun" ;
+           ab:jadwal d:jadwal5 ;
+           ab:jam d:jam4 ;
+           ab:lantai d:lantai3 .  
+d:dokter25 ab:name "dr. Riandi Fandanni, Sp. PD., M. Kes." ;
+           ab:umur "47 tahun" ;
+           ab:spesialis d:spesialis6 ;
+           ab:pengalaman "18 tahun" ;
+           ab:jadwal d:jadwal4 ;
+           ab:jam d:jam3 ;
+           ab:lantai d:lantai4 .  
+
+
+#Dokter Kulit dan Kelamin
+d:dokter26 ab:name "dr. Maria M. Hermawan, Sp. KK., M. Kes." ;
+           ab:umur "46 tahun" ;
+           ab:spesialis d:spesialis7 ;
+           ab:pengalaman "15 tahun" ;
+           ab:jadwal d:jadwal3 ;
+           ab:jam d:jam1 ;
+           ab:lantai d:lantai3 .
+
+#Dokter Bedah
+d:dokter27 ab:name "dr. Zacky Fauzie, Sp. B." ;
+           ab:umur "32 tahun" ;
+           ab:spesialis d:spesialis8 ;
+           ab:pengalaman "4 tahun" ;
+           ab:jadwal d:jadwal3 ;
+           ab:jam d:jam1 ;
+           ab:lantai d:lantai4 .
+d:dokter28 ab:name "dr. Nurul Siti Mardiah, Sp. B." ;
+           ab:umur "40 tahun" ;
+           ab:spesialis d:spesialis8 ;
+           ab:pengalaman "10 tahun" ;
+           ab:jadwal d:jadwal3 ;
+           ab:jam d:jam7 ;
+           ab:lantai d:lantai4 .
+d:dokter29 ab:name "dr. H. Pudjana Basuki Pandji, Sp. B., MD, FinaCs" ;
+           ab:umur "50 tahun" ;
+           ab:spesialis d:spesialis8 ;
+           ab:pengalaman "20 tahun" ;
+           ab:jadwal d:jadwal5 ;
+           ab:jam d:jam6 ;
+           ab:lantai d:lantai4 .
+d:dokter30 ab:name "dr. Riadhi Yulianto, Sp. B(K), Onk, SE, MBA." ;
+           ab:umur "58 tahun" ;
+           ab:spesialis d:spesialis8 ;
+           ab:pengalaman "27 tahun" ;
+           ab:jadwal d:jadwal4 ;
+           ab:jam d:jam4 ;
+           ab:lantai d:lantai4 .
